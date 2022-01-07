@@ -1,4 +1,33 @@
+body{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
 .text-1{
     font-weight: 900;
     font-family: cursive;
+    font-size: 40px;
+   
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sign, {
+    justify-self: flex-end;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    justify-self: flex-end;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: flex-start;
+    
 }
