@@ -15,7 +15,7 @@ body{
     justify-content: space-between;
 }
 
-.sign, {
+.sign {
     justify-self: flex-end;
 }
 
@@ -30,4 +30,16 @@ ul{
     display: flex;
     align-items: flex-start;
     
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+.content{
+    width: 20%;
+    height: auto;
+    margin: auto; 
 }
