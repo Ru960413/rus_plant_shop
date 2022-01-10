@@ -7,7 +7,7 @@ body{
 .text-1{
     font-weight: 900;
     font-family: cursive;
-    font-size: 40px;
+    font-size: 45px;
    
 }
 .header{
@@ -18,28 +18,60 @@ body{
 .sign {
     justify-self: flex-end;
 }
+.log-in{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: fantasy;
+}
 
 a{
+    display: flex;
     text-decoration: none;
     color: white;
     justify-self: flex-end;
+    flex-wrap: wrap;
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    font-family: Times, serif;
 }
 
 ul{
     list-style: none;
     display: flex;
-    align-items: flex-start;
-    
+    align-items: flex-start;  
 }
 
 .container{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
-    
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
 }
 .content{
-    width: 20%;
-    height: auto;
-    margin: auto; 
+    width: 45%;
+    height: auto; 
+}
+
+.card{
+    padding: 5px;
+    border: purple solid 4px;
+    border-radius: 15px;
+    width: 250px;
+    height: 200px;
+    background-color:rgb(5, 5, 167);
+}
+
+h1{
+    margin-left: 50px;
+    font-family: cursive;
+}
+
+h2{
+    margin-left: 50px;
+    margin-top: 40px;
+    font-family: cursive;
 }
