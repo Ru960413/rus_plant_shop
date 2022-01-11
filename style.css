@@ -33,11 +33,11 @@ a{
     justify-self: flex-end;
     flex-wrap: wrap;
     font-weight: 700;
-    font-family: Times, serif;
+    font-family: "LiGothic", "FangSong", Arial, serif;
 }
 
 .description{
-    font-size: 24px;
+    font-size: 22px;
     margin-bottom: 15px;
 }
 
@@ -63,11 +63,11 @@ ul{
 
 .card{
     padding: 5px;
-    border:darkviolet solid 4px;
+    border:whitesmoke solid 2px;
     border-radius: 15px;
-    width: 250px;
+    width: 230px;
     height: 200px;
-    background-color:rgb(5, 5, 167);
+    background-color:black;
 }
 
 h1, h2{
