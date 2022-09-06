@@ -96,3 +96,11 @@ h2 {
 .info-container {
   display: block;
 }
+
+.link {
+  margin-left: 1rem;
+}
+
+.contact {
+  font-family: "LiGothic", "FangSong", Arial, serif;
+}
